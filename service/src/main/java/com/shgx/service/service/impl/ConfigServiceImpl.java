@@ -50,7 +50,7 @@ public class ConfigServiceImpl implements ConfigService {
 
             @Override
             public String reload(String key, String oldValue)throws Exception{
-                return oldValue;
+                return load(key);
             }
         });
     }
@@ -64,7 +64,7 @@ public class ConfigServiceImpl implements ConfigService {
     }
 
     /**
-     * 手动删除缓存
+     * 手动刷新缓存
      * @param key
      */
     public void invalidateCache(String key){

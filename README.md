@@ -222,11 +222,11 @@ http://localhost:8080/config/manage/search/hello
 
  ### 4.3 配置更新
 这时修改hello的值为world!!!
-![](https://github.com/guangxush/iTechHeart/blob/master/image/Swallow/Swallow8.png)
+![](https://github.com/guangxush/iTechHeart/blob/master/image/Swallow/Swallow11.png)
 service模块收到消息通知并更新了缓存：
+![](https://github.com/guangxush/iTechHeart/blob/master/image/Swallow/Swallow8.png)
 ![](https://github.com/guangxush/iTechHeart/blob/master/image/Swallow/Swallow9.png)
 ![](https://github.com/guangxush/iTechHeart/blob/master/image/Swallow/Swallow10.png)
-![](https://upload-images.jianshu.io/upload_images/7632302-8258a006eabf90e0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ## 5 完整源码
 [github参考](https://github.com/guangxush/Swallow)
 
